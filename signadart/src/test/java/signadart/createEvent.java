@@ -24,7 +24,7 @@ public class createEvent {
         driver.get("https://signadart.ai/");
         driver.findElement(By.xpath("//span[text()='Login']")).click();
         driver.findElement(By.name("userName")).sendKeys("Testingteam@signatech.com");
-        driver.findElement(By.name("password")).sendKeys("test@123");
+        driver.findElement(By.name("password")).sendKeys("test8786$");
         driver.findElement(By.xpath("//button[text()='Sign In']")).click();
         driver.findElement(By.cssSelector("div.header-action-item.header-action-item-hoverable")).click();
         driver.findElement(By.xpath("//span[text()='Event- Live']")).click();
